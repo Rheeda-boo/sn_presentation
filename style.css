@@ -1,0 +1,106 @@
+body {
+    background:url(https://image.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg) ;
+    background-size: cover;
+    color: white;
+    font-family: Segoe UI;
+
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    /* font-size: 32px; */
+    text-align: center;
+}
+
+.myBtn {
+    color: white;
+    background-color:#EC441C;
+    padding: 7px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    margin-left: 35%;
+
+}
+
+.myBtn:hover {
+    transform: scale(1.1);
+}
+
+.chaBtn {
+    color: white;
+    background-color:transparent;
+    padding: 7px 20px;
+    border: 1px #EC441C solid;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+.chaBtn:hover {
+    transform: scale(1.1);
+
+}
+
+.content {
+    margin-top: 15%;
+}
+
+.btnDiv {
+    display: grid;
+    justify-content: center;
+    margin-top: 5%;
+    width: fit-content;
+     
+}
+
+.modal {
+    margin-top: 150px;
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 50px;
+    left: 40%;
+    top: 0;
+    
+  }
+
+  .modal-content {
+    background-color: #FFF;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content ;
+    /* text-align: center; */
+    color: #1d1d1d ;
+    padding-right: 50px;
+
+  }
+
+  .close, .newclose {
+    color: white;
+    background-color:#EC441C;
+    padding: 7px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    align-self: center;
+    margin-left: 35% ;
+  }
+
+  .close:hover,
+  .close:focus {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .newclose:hover,
+  .newclose:focus {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
